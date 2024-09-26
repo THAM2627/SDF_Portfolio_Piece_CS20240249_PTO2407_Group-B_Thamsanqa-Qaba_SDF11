@@ -6,3 +6,6 @@ document.querySelector('.loopple-alert.loopple-alert-dismissible .close').onclic
    document.querySelector('.loopple-alert').remove();
  }, 1000);
 }
+
+document.getElementById("mobile-meun-toggle").addEventListener("click", 
+function(){document.getElementById("mobile-menu").classList.toggle("hidden")})
